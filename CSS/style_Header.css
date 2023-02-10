@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --header_height:46px;
+}
+
+html{
+    font-size: 14px;
+}
+
+#header{
+    width: 100%;
+    height: 46px;
+
+}
+
+#header .nav{
+    position: relative;
+    left: 46px;
+    
+}
+
+#header .nav li{
+    display: inline-block;
+    color: black;
+    margin-left: -4px;
+    line-height: 23px;
+    text-transform: uppercase;
+    padding: 0px 12px;
+    white-space: -4px;
+}
+#header .nav li:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#header .nav i{
+    display: block;
+    line-height: 23px;
+    text-align: center;
+}
